@@ -217,6 +217,7 @@
     <Content Include="Content\Images\rental.GIF" />
     <Content Include="Content\Images\sketchfinal2.png" />
     <Content Include="Content\Images\IORan.GIF" />
+    <Content Include="Content\Images\javascriptexample.GIF" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
