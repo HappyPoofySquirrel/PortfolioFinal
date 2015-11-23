@@ -54,7 +54,7 @@ namespace Final2.Controllers
                     var credential = new NetworkCredential
                     {
                         UserName = "guyver432@gmail.com", 
-                        Password = "1toolee2"  
+                        Password = "placeholder"  
                     };
                     smtpClient.Credentials = credential;   //was getting error fixed with
                     smtpClient.Host = "smtp.gmail.com";   //security settings at the followig link https://www.google.com/settings/security/lesssecureapps and enable less secure apps
