@@ -1,0 +1,94 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+body.about{
+    background: url("http://previews.123rf.com/images/nexusplexus/nexusplexus1403/nexusplexus140301566/26495039-Background-image-with-urban-construction-sketch-on-white-background-Stock-Photo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+}
+
+body.contact{
+    background: url("http://previews.123rf.com/images/nexusplexus/nexusplexus1312/nexusplexus131203359/24663736-Hand-drawing-of-urban-scene-Construction-concept-Stock-Photo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+body.home{
+    background: url("http://previews.123rf.com/images/nexusplexus/nexusplexus1307/nexusplexus130702139/21203235-Hand-drawing-of-urban-scene-Construction-concept-Stock-Photo.jpg");
+    background-size: 100%;
+}
+
+body.projectsbody {
+    background: url(" http://previews.123rf.com/images/nexusplexus/nexusplexus1309/nexusplexus130902131/22102636-Background-sketch-image-with-building-plan-and-strategy-Stock-Photo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1.homeheading{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1.sides{
+    font-size:70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+  margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:cursive;
+}
+
+h1.projectheading {
+    text-align: center;
+}
+p.projectp {
+    text-align: center;
+    font-size: 25px;
+}
+
+img.projectScreenshot {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+div.section-heading-wrapper {
+    text-align: center;
+}
+div.row {
+    font-size: 25px;
+    text-align: center;
+}
+
+h3.about{
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+
+
