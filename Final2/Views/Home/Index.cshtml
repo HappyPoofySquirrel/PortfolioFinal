@@ -1,16 +1,52 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<body class="home">
 
- <center><h1 class="homeheading">I Will Bring You Cake And Design Your Webpage</h1></center>
-    <table style="width:100%">
-        <tr>
-            <td><h1 class="sides">Pastry Chef</h1></td>
-            <td><img src="~/Content/Images/sketchfinal2.png" class="img-responsive" /></td>
-            <td><h1 class="sides">&lt;Coder&gt;</h1></td>
-        </tr>
-    </table>
-</body>
-    
-  
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+
+            <div class="home">
+
+                <center><h1 class="homeheading">I Will Bring You Cake And Design Your Webpage</h1></center>
+
+                <table style="width:100%">
+                    <tr>
+                        <td><h1 class="sides">Pastry Chef</h1></td>
+                        <td><img src="~/Content/Images/sketchfinal2.png" class="img-responsive" /></td>
+                        <td><h1 class="sides">&lt;Coder&gt;<span class="sym">_</span></h1></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+            <script src="~/Scripts/jquery-1.10.2.js"></script>
+            <script>
+                jQuery(document).ready(function () {
+                    jQuery('.home').fadeIn(3000);
+                });
+
+                $(document).ready(function(){
+                $("span.sym").bind('fade-cycle', function () {
+                    $(this).fadeOut('slow', function () {
+                        $(this).fadeIn('slow', function () {
+                            $(this).trigger('fade-cycle');
+                        });
+                    });
+                });
+                });
+                $(document).ready(function() {
+                    $("span.sym").each(function (index, elem) {
+                        setTimeout(function () {
+                            $(elem).trigger('fade-cycle');
+                        }, index * 250);
+                    });
+                });
+            </script>
+
+            
+
+       

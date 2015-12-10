@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Final2ModelStoreContainer" CdmEntityContainer="Final2Entities">
+    <EntitySetMapping Name="Mains">
+      <EntityTypeMapping TypeName="Final2Model.Main">
+        <MappingFragment StoreEntitySet="Main">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Screenshot" ColumnName="Screenshot" />
+          <ScalarProperty Name="Git" ColumnName="Git" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_1">
+      <EntityTypeMapping TypeName="Final2Model.View_1">
+        <MappingFragment StoreEntitySet="View_1">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Screenshot" ColumnName="Screenshot" />
+          <ScalarProperty Name="Git" ColumnName="Git" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

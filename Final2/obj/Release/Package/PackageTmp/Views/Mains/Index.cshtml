@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Final2.Models.Main>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="projectsbody">
+
+
+
+
+    @foreach (var item in Model)
+    {
+
+
+        <h1 class="projectheading">@Html.DisplayFor(model => item.Name)</h1>
+
+
+        <p class="projectp">@Html.DisplayFor(modelItem => item.Description)</p>
+
+
+        <img class="projectScreenshot" src="@Url.Content(item.Screenshot)" img-responsive />
+
+
+        <a href="@Html.DisplayFor(modelItem => item.Git)" target="_blank"> <img src="https://iaresam.files.wordpress.com/2014/06/icon_github.png?w=140" alt="Git Hub" /> </a>
+
+    }
+
+</div>
+

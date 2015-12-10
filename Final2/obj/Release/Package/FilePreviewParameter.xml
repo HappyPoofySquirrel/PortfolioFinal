@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="GuyverHopkins" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Sleazy\ P\ Martini\\Documents\\Visual\ Studio\ 2015\\Projects\\Final2\\Final2\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Sleazy\ P\ Martini\\Documents\\Visual\ Studio\ 2015\\Projects\\Final2\\Final2\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:svg1hnjkez2.database.windows.net,1433;Initial Catalog=GuyverHopkins_db;User Id=GuyverHopkins@svg1hnjkez2;Password=1Toolee2" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sleazy\ P\ Martini\\Documents\\Visual\ Studio\ 2015\\Projects\\Final2\\Final2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Final2Entities-Web.config Connection String" description="" value="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=tcp:svg1hnjkez2.database.windows.net,1433;Initial Catalog=GuyverHopkins_db;User Id=GuyverHopkins@svg1hnjkez2;Password=1Toolee2&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sleazy\ P\ Martini\\Documents\\Visual\ Studio\ 2015\\Projects\\Final2\\Final2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Final2Entities']/@connectionString" />
+  </parameter>
+</parameters>

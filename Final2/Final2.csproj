@@ -205,9 +205,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\contact wallpaper.jpg" />
+    <Content Include="Content\home wallpaper.jpg" />
     <Content Include="Content\Images\101833-silver-inlay-square-metal-icon-social-media-logos-linkedin-logo.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\book icon.jpg" />
+    <Content Include="Content\Images\favicon-32x32.png" />
     <Content Include="Content\Images\icon_github.png" />
     <Content Include="Content\Images\fizzbuzzz.GIF" />
     <Content Include="Content\Images\filmrental.GIF" />
@@ -218,6 +222,8 @@
     <Content Include="Content\Images\sketchfinal2.png" />
     <Content Include="Content\Images\IORan.GIF" />
     <Content Include="Content\Images\javascriptexample.GIF" />
+    <Content Include="Content\project wallpaper.jpg" />
+    <Content Include="Content\skills background.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -241,6 +247,9 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\Final2.pubxml" />
+    <None Include="Properties\PublishProfiles\GuyverHopkins.pubxml" />
+    <None Include="Properties\PublishProfiles\GuyverHopkinsPortfolio.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -253,7 +262,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

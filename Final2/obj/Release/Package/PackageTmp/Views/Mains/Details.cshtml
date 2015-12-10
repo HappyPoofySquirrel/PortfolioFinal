@@ -1,0 +1,42 @@
+﻿@model Final2.Models.Main
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Main</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Screenshot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Screenshot)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Git)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Git)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

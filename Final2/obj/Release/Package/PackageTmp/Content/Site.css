@@ -1,0 +1,196 @@
+﻿body {
+    padding-top: 30px;
+}
+
+div{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+div.about{
+    background: url("http://previews.123rf.com/images/nexusplexus/nexusplexus1403/nexusplexus140301566/26495039-Background-image-with-urban-construction-sketch-on-white-background-Stock-Photo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+    margin-bottom: -45px;
+}
+
+
+body.contact{
+    background: url("http://previews.123rf.com/images/nexusplexus/nexusplexus1312/nexusplexus131203359/24663736-Hand-drawing-of-urban-scene-Construction-concept-Stock-Photo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+div.home{
+    background: url("http://previews.123rf.com/images/nexusplexus/nexusplexus1307/nexusplexus130702139/21203235-Hand-drawing-of-urban-scene-Construction-concept-Stock-Photo.jpg");
+    background-size: 100%;
+    margin-bottom: -45px;
+}
+
+div.projectsbody {
+    background: url(" http://previews.123rf.com/images/nexusplexus/nexusplexus1309/nexusplexus130902131/22102636-Background-sketch-image-with-building-plan-and-strategy-Stock-Photo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin-bottom: -45px;
+}
+
+h1.homeheading{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1.sides{
+    font-size:70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+  margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:cursive;
+}
+
+h1.projectheading {
+    text-align: center;
+}
+p.projectp {
+    text-align: center;
+    font-size: 25px;
+}
+
+img.projectScreenshot {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+div.section-heading-wrapper {
+    text-align: center;
+}
+div.row {
+    font-size: 35px;
+    text-align: center;
+}
+div.skills{
+        background: url("http://www.tech-coffee.net/wp-content/uploads/2015/06/computer-code-against-blue-background.jpg");
+        color: white;
+}
+
+h3.about{
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+div.skillsthings {
+  font-family: 'Ubuntu', sans-serif;
+  width:960px;
+}
+
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+    /* background:#eee;*/
+	
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+    width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
